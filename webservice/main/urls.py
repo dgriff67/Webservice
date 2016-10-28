@@ -1,4 +1,3 @@
-
 from django.conf.urls import url, include
 from .api import Pl1516Resource
 
