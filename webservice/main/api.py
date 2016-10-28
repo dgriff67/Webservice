@@ -7,5 +7,6 @@ class Pl1516Resource(ModelResource):
         queryset = Pl1516.objects.all()
         resource_name = 'Pl1516'
         filtering = {
-            "hometeam" : ALL
+            "hometeam" : ALL,
+            "awayteam" : ALL
         }
