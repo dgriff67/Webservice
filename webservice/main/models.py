@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Pl1516(models.Model):
-    id = models.IntegerField(primary_key=True)  # AutoField
+    id = models.IntegerField(primary_key=True)  # AutoField?
     div = models.TextField(db_column='Div', blank=True, null=True)  # Field name made lowercase.
     date = models.TextField(db_column='Date', blank=True, null=True)  # Field name made lowercase.
     hometeam = models.TextField(db_column='HomeTeam', blank=True, null=True)  # Field name made lowercase.
